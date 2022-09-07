@@ -1,1 +1,25 @@
 @charset "UTF-8";
+body {
+  background-color: bisque;
+}
+main {
+  width: 90%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.aExterior {
+  width: 70%;
+  height: 50rem;
+  border: 2px solid #cec9cc;
+  border-radius: 3rem;
+  background-color: #cec9cc;
+}
+
+.c2Centro {
+  background-color: #908a99;
+  width: 90%;
+  height: 35rem;
+  margin: 20% auto;
+  border-radius: 3rem;
+}
