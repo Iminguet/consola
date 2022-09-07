@@ -13,26 +13,61 @@ main {
 
 .aExterior {
   background-color: red;
-  border-radius: 2.5rem;
+  border-radius: 2rem;
   width: 70%;
   height: 85%;
+  display: flex;
   align-items: flex-start;
   justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 2%;
 }
 
 .detalleVentilacion {
   display: flex;
   justify-content: space-between;
-  width: 50%;
-  border: 2px SOLID BLACK;
+  width: 80%;
+  height: 2%;
 }
 .aire {
-  width: 1%;
-  height: 1%;
+  width: 2%;
+  height: 100%;
   background-color: bisque;
 }
 .consola {
-  width: 1%;
-  height: 1%;
-  background-color: blue;
+  height: 100%;
+  width: 3%;
+  background-color: red;
+}
+
+.bInterior {
+  border: 1px solid black;
+  height: 98%;
+  width: 95%;
+  border-radius: 1.5rem;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c1Superior,
+.c3Inferior {
+  width: 80%;
+  height: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.c1Superior {
+  height: 20%;
+}
+.c3Inferior {
+  height: 25%;
+}
+.c2Centro {
+  border: 1px solid green;
+  width: 95%;
+  min-height: 55%;
 }
