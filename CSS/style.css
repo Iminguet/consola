@@ -11,7 +11,7 @@ main {
   place-items: center;
 }
 
-.aExterior {
+#aExterior {
   background-color: red;
   border-radius: 2rem;
   width: 70%;
@@ -23,7 +23,7 @@ main {
   padding-bottom: 2%;
 }
 
-.detalleVentilacion {
+#detalleVentilacion {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -40,7 +40,7 @@ main {
   background-color: red;
 }
 
-.bInterior {
+#bInterior {
   border: 1px solid black;
   height: 98%;
   width: 95%;
@@ -52,22 +52,23 @@ main {
   align-items: center;
 }
 
-.c1Superior,
-.c3Inferior {
+#c1Superior,
+#c3Inferior {
   width: 80%;
   height: 100%;
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
 
-.c1Superior {
+#c1Superior {
   height: 20%;
 }
-.c3Inferior {
+#c3Inferior {
   height: 25%;
 }
-.c2Centro {
+#c2Centro {
   border: 1px solid green;
   width: 95%;
   min-height: 55%;
+  border-radius: 1rem;
 }
