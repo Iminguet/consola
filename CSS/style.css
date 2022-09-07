@@ -1,25 +1,38 @@
 @charset "UTF-8";
 body {
-  background-color: bisque;
+  background-color: white;
 }
 main {
-  width: 90%;
-  min-height: 100%;
+  width: 30rem;
+  height: 30rem;
   margin: 0 auto;
+  background-color: bisque;
+  display: grid;
+  place-items: center;
 }
 
 .aExterior {
+  background-color: red;
+  border-radius: 2.5rem;
   width: 70%;
-  height: 50rem;
-  border: 2px solid #cec9cc;
-  border-radius: 3rem;
-  background-color: #cec9cc;
+  height: 85%;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.c2Centro {
-  background-color: #908a99;
-  width: 90%;
-  height: 35rem;
-  margin: 20% auto;
-  border-radius: 3rem;
+.detalleVentilacion {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  border: 2px SOLID BLACK;
+}
+.aire {
+  width: 1%;
+  height: 1%;
+  background-color: bisque;
+}
+.consola {
+  width: 1%;
+  height: 1%;
+  background-color: blue;
 }
