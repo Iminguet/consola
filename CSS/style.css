@@ -1,4 +1,13 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'logoNintendo';
+  src: url('../fonts/Pretendo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'italicSnes';
+  src: url('../fonts/SnesItalic-1G9Be.ttf') format('truetype');
+}
 body {
   background-color: white;
 }
@@ -51,7 +60,12 @@ main {
   justify-content: center;
   align-items: center;
 }
-
+#c2Centro {
+  border: 1px solid green;
+  width: 95%;
+  min-height: 55%;
+  border-radius: 1rem;
+}
 #c1Superior,
 #c3Inferior {
   width: 80%;
@@ -63,12 +77,63 @@ main {
 #c1Superior {
   height: 20%;
 }
+
 #c3Inferior {
   height: 25%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  background-color: aliceblue;
 }
-#c2Centro {
-  border: 1px solid green;
-  width: 95%;
-  min-height: 55%;
-  border-radius: 1rem;
+#c3Logo {
+  border: 1px solid blue;
+  width: 40%;
+  height: 80%;
+  padding: 0.5rem;
+}
+.textosMarca {
+  display: flex;
+  width: 100%;
+  height: 85%;
+  flex-direction: column;
+}
+
+#nintendo {
+  font-family: 'logoNintendo';
+  border: 1px solid blue;
+  width: fit-content;
+  font-size: 0.5rem;
+  border-radius: 5rem;
+  padding: 0.2rem;
+}
+
+#SNES,
+#ENTER {
+  font-family: 'italicSnes';
+  width: 100%;
+}
+
+#ENTER {
+  background-color: blue;
+  width: fit-content;
+  color: white;
+  font-size: small;
+  display: inline;
+}
+
+#chivato {
+  width: 20%;
+  border: 2px solid red;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+}
+
+.luz {
+  width: 45%;
+  height: 10%;
+  border: 2px solid red;
+  border-radius: 5rem;
+  background-color: green;
 }
