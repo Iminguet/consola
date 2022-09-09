@@ -13,13 +13,15 @@
       name="keywords"
       content="URBALAB, GEEKSHUB, consola, nintendo, css, html"
     />
-    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/logo.css" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Proyecto consola CSS/HTML</title>
   </head>
   <body>
     <header>Réplica de videoconsola clásica</header>
     <main>
+      <!-- Hacer la curva de la consola con dos divs independientes -->
+      <!-- <div id="lateralIz"></div> -->
       <div id="aExterior">
         <div id="detalleVentilacion">
           <div class="consola"></div>
@@ -73,7 +75,34 @@
         <div id="bInterior">
           <div id="b1Superior"></div>
           <div id="b2Centro">
-            <div id="c2Logo"></div>
+            <div id="c2Logo">
+              <div class="logoContainer">
+                <div class="logo azul">
+                  <div class="detalleLogo sIz"></div>
+                  <div class="detalleLogo sDr"></div>
+                  <div class="detalleLogo curvado"></div>
+                  <div class="detalleLogo iDr"></div>
+                </div>
+                <div class="logo rojo">
+                  <div class="detalleLogo sIz"></div>
+                  <div class="detalleLogo sDr"></div>
+                  <div class="detalleLogo curvado"></div>
+                  <div class="detalleLogo iDr"></div>
+                </div>
+                <div class="logo verde">
+                  <div class="detalleLogo sIz"></div>
+                  <div class="detalleLogo sDr"></div>
+                  <div class="detalleLogo iIz"></div>
+                  <div class="detalleLogo iDr"></div>
+                </div>
+                <div class="logo amarillo">
+                  <div class="detalleLogo sIz"></div>
+                  <div class="detalleLogo sDr"></div>
+                  <div class="detalleLogo iIz"></div>
+                  <div class="detalleLogo iDr"></div>
+                </div>
+              </div>
+            </div>
             <div id="c2Ranura">
               <div id="ranuraDetalleIz"></div>
               <div id="ranuraDetalleCentro"></div>
@@ -84,7 +113,10 @@
           <div id="b3Inferior">
             <div id="c3Logo">
               <div class="textosMarca">
-                <div class="texto" id="nintendo">Nintendo <span>R</span></div>
+                <div class="texto" id="nintendo">
+                  Nintendo
+                  <div class="rCopyRigth">R</div>
+                </div>
                 <div class="texto" id="SNES">
                   SUPER NINTENDO <span class="texto TM">TM</span>
                 </div>
@@ -102,6 +134,7 @@
           </div>
         </div>
       </div>
+      <!-- <div id="lateralDer"></div> -->
     </main>
     <footer>Israel Minguet Seguí. Urbalab Gandía. 2022.</footer>
     <script src="./scripts/index.js"></script>

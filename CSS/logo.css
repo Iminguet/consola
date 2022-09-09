@@ -1,0 +1,61 @@
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.detalleLogo {
+  width: 50%;
+  height: 50%;
+}
+.sIz {
+  border-top-left-radius: 100%;
+}
+.sDr {
+  border-top-right-radius: 100%;
+}
+.iDr {
+  border-bottom-right-radius: 100%;
+}
+.curvado {
+  border-radius: 0%;
+  border-top-right-radius: 100%;
+  background-color: #7c7c7c;
+}
+
+.verde,
+.amarillo {
+  height: 15%;
+  border-radius: 100% / 100%;
+}
+
+.rojo {
+  position: relative;
+  left: 35%;
+  top: 15%;
+  background-color: red;
+}
+
+.azul {
+  position: relative;
+  left: 35%;
+  background-color: blue;
+}
+
+.verde {
+  position: relative;
+  right: 45%;
+  top: 25%;
+  background-color: green;
+}
+
+.amarillo {
+  position: relative;
+  left: 43%;
+  bottom: 20%;
+  background-color: yellow;
+}
