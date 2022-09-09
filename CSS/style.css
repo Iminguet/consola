@@ -106,32 +106,16 @@ main {
   justify-content: flex-end;
 }
 
-/* //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// */
 #c2Ranura {
   height: 20%;
-  width: 84.5%;
-  background-color: red;
+  width: 80%;
+  background-color: #646363;
+  border-radius: 3rem;
+  padding: 0.2rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  flex-direction: column;
 }
 /* //
 //
@@ -156,7 +140,25 @@ main {
   width: 84.5%;
   background-color: bisque;
 }
-
+/* //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// */
 #b3Inferior {
   height: 25%;
   display: flex;
