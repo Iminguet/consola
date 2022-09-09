@@ -96,20 +96,16 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 #c2Logo {
   /* TODO   width: 80%; */
   width: 84.5%;
-  height: 100%;
-}
-.logoContainer {
-  align-self: flex-end;
-  width: 15%;
   height: 15%;
   display: flex;
-  flex-wrap: wrap;
-  background-color: #7c7c7c;
+  justify-content: flex-end;
 }
+
 /* //
 //
 //
@@ -132,8 +128,10 @@ main {
 #c2Ranura {
   height: 20%;
   width: 84.5%;
-  align-self: center;
   background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* //
 //
@@ -156,7 +154,6 @@ main {
 #c2Botones {
   height: 30%;
   width: 84.5%;
-  align-self: center;
   background-color: bisque;
 }
 
