@@ -127,21 +127,25 @@
             <div id="c2Botones">
               <div class="power posicionBoton">
                 <div class="botonP altoAnchoB">
-                  <div class="powerDetalle">
-                    <div class="powerFondo"></div>
-                    <div class="powerArriba"></div>
-                    <div class="powerPestanya">
-                      <div class="pestanya"></div>
+                  <!-- Añadir la class accionado par INTERACTUAR CON EL BOTON -->
+                  <div id="botonEncendido" class="powerDetalle">
+                    <!-- //
+                    // -->
+                    <div class="botonPower">
+                      <div class="powerPestanya"></div>
+                      <div class="powerTexto"><p class="pPow">POWER</p></div>
                     </div>
-                    <div class="powerTexto"><p>POWER</p></div>
+                    <!-- //
+                    //
+                    // -->
                   </div>
                 </div>
               </div>
               <div class="eject posicionBoton">
-                <div class="botonE altoAnchoB"><p>EJECT</p></div>
+                <div class="botonE altoAnchoB"><p class="pEj">EJECT</p></div>
               </div>
               <div class="reset posicionBoton">
-                <div class="botonR altoAnchoB"><p>RESET</p></div>
+                <div class="botonR altoAnchoB"><p class="pRes">RESET</p></div>
               </div>
             </div>
           </div>
@@ -165,7 +169,7 @@
               </div>
             </div>
             <div id="chivato">
-              <div class="luz"></div>
+              <div class="luz" id="pilotoDeEstado"></div>
             </div>
           </div>
         </div>

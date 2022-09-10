@@ -162,6 +162,12 @@
 /* /////////////////////////////////////////////////////////////////// */
 
 /* botones */
+.botonP {
+  background-color: #646363;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .altoAnchoB {
   width: 85%;
@@ -171,6 +177,7 @@
   justify-content: center;
   align-items: flex-end;
 }
+
 .posicionBoton {
   display: flex;
   justify-content: center;
@@ -178,60 +185,84 @@
   border-radius: 0.5rem;
 }
 
-.powerDetalle {
-  width: 100%;
-  background-color: #646363;
-  border-radius: 0.5rem 0.5rem 0 0;
-}
 .power,
 .reset {
   width: 20%;
   height: 100%;
   background-color: white;
-  /* background-color: #646363; */
 }
-/* //
+/* 
 //
-// */
-
-.powerFondo {
-  /* background-color: #646363; */
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// 
+//
+//
+// 
+*/
+.powerDetalle {
   width: 100%;
-  height: 20%;
-  border-radius: 5rem;
+  height: 100%;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: flex-end;
+  /* align-items: flex-start; */
 }
-.powerArriba {
+.botonPower {
+  background-color: yellow;
   width: 100%;
-  height: 30%;
-  border-radius: 0.5rem 0.5rem 0 0;
-  background-color: #3b444b;
-}
-.botonP {
+  height: 85%;
+  border-radius: 0.5rem;
   background-color: #3b444b;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
 }
+
 .powerPestanya {
-  height: 50%;
+  height: 100%;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 5rem;
+  border: 2px solid #646363;
   background-color: #3b444b;
 }
-.pestanya {
-  height: 80%;
-  width: 100%;
-  border-radius: 0.5rem;
-  border: 2px solid #646363;
-}
-.powerTexto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  bottom: 22%;
-}
-/* //
+
+/* 
 //
-// */
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// 
+//
+//
+// 
+*/
 .eject {
   background-color: #646363;
   width: 40%;
@@ -241,10 +272,20 @@
   background-color: #7c7c7c;
   border: 1px solid #3b444b;
 }
-/* //
-//
-// */
 
 .botonR {
   background-color: #3b444b;
+}
+.pPow,
+.pRes,
+.pEj {
+  position: relative;
+}
+
+.pPow {
+  bottom: 5%;
+}
+
+.accionado {
+  align-items: flex-start;
 }
