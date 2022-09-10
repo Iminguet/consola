@@ -20,6 +20,7 @@ header p,
 footer p {
   font-family: 'textoBotones';
   font-weight: bolder;
+  text-align: center;
 }
 body {
   background-color: #f3f3f3;
