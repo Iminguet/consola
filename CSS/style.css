@@ -5,9 +5,18 @@
 }
 
 @font-face {
+  font-family: 'textoBotones';
+  src: url('../fonts/Exo2-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
   font-family: 'italicSnes';
   src: url('../fonts/SnesItalic-1G9Be.ttf') format('truetype');
 }
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
   color: #000000;
@@ -64,7 +73,7 @@ main {
 }
 
 #bInterior {
-  border: 1px solid #7c7c7c;
+  border: 1px solid #3b444b;
   height: 98%;
   width: 95%;
   border-radius: 1.5rem;
@@ -78,8 +87,8 @@ main {
 #b3Inferior {
   width: 80%;
   height: 100%;
-  border-left: 1px solid #7c7c7c;
-  border-right: 1px solid #7c7c7c;
+  border-left: 1px solid #3b444b;
+  border-right: 1px solid #3b444b;
 }
 
 #b1Superior {
@@ -88,8 +97,7 @@ main {
 
 #b2Centro {
   background-color: #7c7c7c;
-  /* background-color: aqua; */
-  border: 1px solid #646363;
+  border: 1px solid #3b444b;
   width: 95%;
   min-height: 55%;
   border-radius: 1rem;
@@ -116,6 +124,8 @@ main {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  bottom: 6%;
 }
 /* //
 //
@@ -136,10 +146,17 @@ main {
 //
 // */
 #c2Botones {
-  height: 30%;
+  height: 27%;
   width: 84.5%;
-  background-color: bisque;
+  display: flex;
+  justify-content: space-around;
 }
+#c2Botones P {
+  font-family: 'textoBotones';
+  font-size: 50%;
+  color: white;
+}
+
 /* //
 //
 //
