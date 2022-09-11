@@ -136,24 +136,7 @@ main {
   position: relative;
   bottom: 6%;
 }
-/* //
-//
-///
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// */
+
 #c2Botones {
   height: 27%;
   width: 84.5%;
@@ -166,25 +149,6 @@ main {
   color: white;
 }
 
-/* //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// */
 #b3Inferior {
   height: 25%;
   display: flex;

@@ -67,10 +67,6 @@
   background-color: yellow;
 }
 
-/* /////////////////////////////////////////////////////////////////// */
-
-/* Ranura de cartucho */
-
 .ranura {
   background-color: 646363;
   width: 95%;
@@ -123,8 +119,6 @@
   background-color: #3b444b;
   display: flex;
   justify-content: space-between;
-  /* border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%; */
 }
 
 .containerRanura {
@@ -159,9 +153,6 @@
   border-top: 3px solid #3b444b;
 }
 
-/* /////////////////////////////////////////////////////////////////// */
-
-/* botones */
 .botonP {
   background-color: #646363;
   display: flex;
@@ -191,27 +182,7 @@
   height: 100%;
   background-color: white;
 }
-/* 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// 
-//
-//
-// 
-*/
+
 .powerDetalle {
   width: 100%;
   height: 100%;
@@ -221,7 +192,7 @@
   /* align-items: flex-start; */
 }
 .botonPower {
-  background-color: yellow;
+  cursor: pointer;
   width: 100%;
   height: 85%;
   border-radius: 0.5rem;
@@ -242,27 +213,6 @@
   background-color: #3b444b;
 }
 
-/* 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// 
-//
-//
-// 
-*/
 .eject {
   background-color: #646363;
   width: 40%;
