@@ -34,24 +34,18 @@ body {
   color: #000000;
 }
 main {
-  width: 30rem;
-  height: 30rem;
+  min-width: 30rem;
+  min-height: 30rem;
+  max-width: 30rem;
+  max-height: 30rem;
   margin: 0 auto;
   background-color: #f3f3f3;
   display: flex;
   justify-content: center;
 }
-/* #lateralIz,
-#lateralDer {
-  width: 2px;
-  background-color: aqua;
-  height: 75%;
+.consolaTv {
+  display: flex;
 }
-#lateralIz {
-  align-self: center;
-  border-top-left-radius: 20px 80px;
-  border-bottom-left-radius: 20px 80px;
-} */
 #aExterior {
   background-color: #bcbcbc;
   border-radius: 2rem;
@@ -63,6 +57,7 @@ main {
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 2%;
+
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -86,6 +81,7 @@ main {
 }
 
 #bInterior {
+  background-color: #bcbcbc;
   border: 1px solid #3b444b;
   height: 98%;
   width: 95%;
@@ -264,4 +260,24 @@ main {
 }
 .luzEncendida {
   background-color: #00ff00;
+}
+
+.tv {
+  min-width: 30rem;
+  max-width: 30rem;
+  height: auto;
+}
+.aparato > img {
+  position: absolute;
+  width: 40rem;
+}
+
+.imagen > div {
+  height: 23rem;
+  width: auto;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.imagen > div > img {
+  height: 100%;
 }
